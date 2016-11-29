@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Map Location</string>
+    <string name="no_maps">Google Maps V2 not available!</string>
+
+    <string name="location_hint">Enter Location</string>
+    <string name="ip_hint">Enter IP</string>
+    <string name="activate_offer">activate offer</string>
+    <string name="show_more">Show More</string>
+    <string name="name">Name : </string>
+    <string name="country">Country : </string>
+    <string name="capital">Capital : </string>
+    <string name="area">Area : </string>
+    <string name="largest_city">Largest City : </string>
+    <string name="error">Result Not Found </string>
+    <bool name="use_hardcode_location">true</bool>
+</resources>
