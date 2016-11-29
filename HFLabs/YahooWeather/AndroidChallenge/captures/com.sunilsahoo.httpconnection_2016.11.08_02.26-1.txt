@@ -1,0 +1,90 @@
+Applications Graphics Acceleration Info:
+Uptime: 16340006 Realtime: 16340006
+
+** Graphics info for pid 23206 [com.sunilsahoo.httpconnection] **
+
+Recent DisplayList operations
+    DrawRenderNode
+      DrawRenderNode
+        DrawRenderNode
+          DrawRenderNode
+            Save
+            ClipRect
+            DrawRenderNode
+            DrawRenderNode
+              DrawRenderNode
+                DrawPatch
+              Save
+              ClipRect
+              Translate
+              DrawText
+              RestoreToCount
+            DrawRenderNode
+            RestoreToCount
+    RestoreToCount
+  DrawRenderNode
+  DrawRenderNode
+RestoreToCount
+Save
+DrawRenderNode
+  DrawRenderNode
+    DrawRect
+  DrawRenderNode
+    Save
+    ClipRect
+    DrawRenderNode
+      DrawRenderNode
+        DrawRenderNode
+          DrawRenderNode
+            Save
+            ClipRect
+            DrawRenderNode
+            DrawRenderNode
+              DrawRenderNode
+                DrawPatch
+              Save
+              ClipRect
+              Translate
+              DrawPatch
+              DrawText
+              RestoreToCount
+            DrawRenderNode
+            RestoreToCount
+    RestoreToCount
+  DrawRenderNode
+  DrawRenderNode
+RestoreToCount
+
+Caches:
+Current memory usage / total memory usage (bytes):
+  TextureCache            10576 / 75497472
+  LayerCache             786432 / 50331648 (numLayers = 2)
+  Garbage layers              0
+  Active layers               0
+  RenderBufferCache           0 /  2097152
+  GradientCache               0 /   524288
+  PathCache                   0 / 10485760
+  TessellationCache         744 /  1048576
+  TextDropShadowCache         0 /  2097152
+  PatchCache                128 /   131072
+  FontRenderer 0 A8     2097152 /  2097152
+  FontRenderer 0 RGBA         0 /        0
+  FontRenderer 0 total  2097152 /  2097152
+Other:
+  FboCache                    2 /       16
+Total memory usage:
+  2895032 bytes, 2.76 MB
+
+Profile data in ms:
+
+	com.sunilsahoo.httpconnection/com.sunilsahoo.httpconnection.WeatherActivity/android.view.ViewRootImpl@3371e7ee (visibility=0)
+View hierarchy:
+
+  com.sunilsahoo.httpconnection/com.sunilsahoo.httpconnection.WeatherActivity/android.view.ViewRootImpl@3371e7ee
+  59 views, 68.14 kB of display lists
+
+
+Total ViewRootImpl: 1
+Total Views:        59
+Total DisplayList:  68.14 kB
+

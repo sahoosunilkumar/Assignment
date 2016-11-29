@@ -1,0 +1,61 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="forecast"
+            type="com.sunilsahoo.inventorycontoller.entity.Forecast"/>
+    </data>
+<RelativeLayout android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="?android:attr/selectableItemBackground"
+              android:clickable="true"
+              android:focusable="true"
+              android:orientation="vertical"
+              android:paddingLeft="16dp"
+              android:paddingRight="16dp"
+    >
+
+    <ImageView
+        android:id="@+id/forecastIV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/tempInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/ItemBody"
+        android:layout_alignParentRight="true"/>
+    <TextView
+        android:id="@+id/dateTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/ItemHeader"
+        android:layout_toLeftOf="@+id/tempInfo"
+        android:layout_toRightOf="@+id/forecastIV"
+        android:text="@{forecast.date}"
+        />
+    <TextView
+        android:id="@+id/dayTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/ItemBody"
+        android:layout_below="@id/dateTV"
+        android:text="@{forecast.day}"
+        android:layout_alignStart="@+id/dateTV"/>
+    <TextView
+        android:id="@+id/weatcherTypeTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/ItemBody"
+        android:layout_below="@id/dayTV"
+        android:layout_alignStart="@+id/dateTV"
+        android:text="@{forecast.text}"
+        />
+
+</RelativeLayout>
+    </layout>

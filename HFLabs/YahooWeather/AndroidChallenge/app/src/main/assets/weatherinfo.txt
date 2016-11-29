@@ -1,0 +1,138 @@
+{
+	"query": {
+		"count": 1,
+		"created": "2016-11-07T14:51:52Z",
+		"lang": "en-US",
+		"results": {
+			"channel": {
+				"units": {
+					"distance": "mi",
+					"pressure": "in",
+					"speed": "mph",
+					"temperature": "F"
+				},
+				"title": "Yahoo! Weather - London, England, GB",
+				"link": "http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-44418/",
+				"description": "Yahoo! Weather for London, England, GB",
+				"language": "en-us",
+				"lastBuildDate": "Mon, 07 Nov 2016 02:51 PM GMT",
+				"ttl": "60",
+				"location": {
+					"city": "London",
+					"country": "United Kingdom",
+					"region": " England"
+				},
+				"wind": {
+					"chill": "43",
+					"direction": "0",
+					"speed": "18"
+				},
+				"atmosphere": {
+					"humidity": "58",
+					"pressure": "1009.0",
+					"rising": "0",
+					"visibility": "16.1"
+				},
+				"astronomy": {
+					"sunrise": "7:6 am",
+					"sunset": "4:22 pm"
+				},
+				"image": {
+					"title": "Yahoo! Weather",
+					"width": "142",
+					"height": "18",
+					"link": "http://weather.yahoo.com",
+					"url": "http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif"
+				},
+				"item": {
+					"title": "Conditions for London, England, GB at 02:00 PM GMT",
+					"lat": "51.507702",
+					"long": "-0.12797",
+					"link": "http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-44418/",
+					"pubDate": "Mon, 07 Nov 2016 02:00 PM GMT",
+					"condition": {
+						"code": "30",
+						"date": "Mon, 07 Nov 2016 02:00 PM GMT",
+						"temp": "47",
+						"text": "Partly Cloudy"
+					},
+					"forecast": [{
+						"code": "12",
+						"date": "07 Nov 2016",
+						"day": "Mon",
+						"high": "48",
+						"low": "38",
+						"text": "Rain"
+					}, {
+						"code": "12",
+						"date": "08 Nov 2016",
+						"day": "Tue",
+						"high": "42",
+						"low": "34",
+						"text": "Rain"
+					}, {
+						"code": "11",
+						"date": "09 Nov 2016",
+						"day": "Wed",
+						"high": "48",
+						"low": "41",
+						"text": "Showers"
+					}, {
+						"code": "28",
+						"date": "10 Nov 2016",
+						"day": "Thu",
+						"high": "51",
+						"low": "41",
+						"text": "Mostly Cloudy"
+					}, {
+						"code": "39",
+						"date": "11 Nov 2016",
+						"day": "Fri",
+						"high": "51",
+						"low": "41",
+						"text": "Scattered Showers"
+					}, {
+						"code": "28",
+						"date": "12 Nov 2016",
+						"day": "Sat",
+						"high": "55",
+						"low": "46",
+						"text": "Mostly Cloudy"
+					}, {
+						"code": "23",
+						"date": "13 Nov 2016",
+						"day": "Sun",
+						"high": "51",
+						"low": "44",
+						"text": "Breezy"
+					}, {
+						"code": "28",
+						"date": "14 Nov 2016",
+						"day": "Mon",
+						"high": "51",
+						"low": "43",
+						"text": "Mostly Cloudy"
+					}, {
+						"code": "28",
+						"date": "15 Nov 2016",
+						"day": "Tue",
+						"high": "51",
+						"low": "43",
+						"text": "Mostly Cloudy"
+					}, {
+						"code": "28",
+						"date": "16 Nov 2016",
+						"day": "Wed",
+						"high": "52",
+						"low": "40",
+						"text": "Mostly Cloudy"
+					}],
+					"description": "<![CDATA[<img src=\"http://l.yimg.com/a/i/us/we/52/30.gif\"/>\n<BR />\n<b>Current Conditions:</b>\n<BR />Partly Cloudy\n<BR />\n<BR />\n<b>Forecast:</b>\n<BR /> Mon - Rain. High: 48Low: 38\n<BR /> Tue - Rain. High: 42Low: 34\n<BR /> Wed - Showers. High: 48Low: 41\n<BR /> Thu - Mostly Cloudy. High: 51Low: 41\n<BR /> Fri - Scattered Showers. High: 51Low: 41\n<BR />\n<BR />\n<a href=\"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-44418/\">Full Forecast at Yahoo! Weather</a>\n<BR />\n<BR />\n(provided by <a href=\"http://www.weather.com\" >The Weather Channel</a>)\n<BR />\n]]>",
+					"guid": {
+						"isPermaLink": "false"
+					}
+				}
+			}
+		}
+	}
+}

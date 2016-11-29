@@ -1,0 +1,107 @@
+TASK com.sunilsahoo.httpconnection id=357
+  ACTIVITY com.sunilsahoo.httpconnection/.WeatherActivity 83000e7 pid=23206
+    Local FragmentActivity 28ebf83 State:
+      mCreated=truemResumed=true mStopped=false mReallyStopped=false
+      mLoadersStarted=true
+    Active Fragments in 3773a500:
+      #0: ForecastFragment{f25cb4c #0 id=0x7f0c006f}
+        mFragmentId=#7f0c006f mContainerId=#7f0c006f mTag=null
+        mState=5 mIndex=0 mWho=android:fragment:0 mBackStackNesting=0
+        mAdded=true mRemoving=false mFromLayout=false mInLayout=false
+        mHidden=false mDetached=false mMenuVisible=false mHasMenu=false
+        mRetainInstance=false mRetaining=false mUserVisibleHint=false
+        mFragmentManager=FragmentManager{3773a500 in HostCallbacks{36837139}}
+        mHost=android.support.v4.app.FragmentActivity$HostCallbacks@36837139
+        mContainer=android.support.v4.view.ViewPager{1424b7f0 VFED.... ........ 0,245-1440,1303 #7f0c006f app:id/pager}
+        mView=android.widget.RelativeLayout{260c952 V.E..... ......ID 1440,0-2880,1058}
+        mInnerView=android.widget.RelativeLayout{260c952 V.E..... ......ID 1440,0-2880,1058}
+        Child FragmentManager{d8cc37e in ForecastFragment{f25cb4c}}:
+          FragmentManager misc state:
+            mHost=android.support.v4.app.FragmentActivity$HostCallbacks@36837139
+            mContainer=android.support.v4.app.Fragment$1@19f3d0df
+            mParent=ForecastFragment{f25cb4c #0 id=0x7f0c006f}
+            mCurState=5 mStateSaved=false mDestroyed=false
+      #1: WeatherNowFragment{1ee112c #1 id=0x7f0c006f}
+        mFragmentId=#7f0c006f mContainerId=#7f0c006f mTag=null
+        mState=5 mIndex=1 mWho=android:fragment:1 mBackStackNesting=0
+        mAdded=true mRemoving=false mFromLayout=false mInLayout=false
+        mHidden=false mDetached=false mMenuVisible=true mHasMenu=false
+        mRetainInstance=false mRetaining=false mUserVisibleHint=true
+        mFragmentManager=FragmentManager{3773a500 in HostCallbacks{36837139}}
+        mHost=android.support.v4.app.FragmentActivity$HostCallbacks@36837139
+        mContainer=android.support.v4.view.ViewPager{1424b7f0 VFED.... ........ 0,245-1440,1303 #7f0c006f app:id/pager}
+        mView=android.widget.LinearLayout{4c030aa V.E..... ........ 0,0-1440,1058 #7f0c008f app:id/productDtlContainerLL}
+        mInnerView=android.widget.LinearLayout{4c030aa V.E..... ........ 0,0-1440,1058 #7f0c008f app:id/productDtlContainerLL}
+        Child FragmentManager{fa0e7f5 in WeatherNowFragment{1ee112c}}:
+          FragmentManager misc state:
+            mHost=android.support.v4.app.FragmentActivity$HostCallbacks@36837139
+            mContainer=android.support.v4.app.Fragment$1@aad998a
+            mParent=WeatherNowFragment{1ee112c #1 id=0x7f0c006f}
+            mCurState=5 mStateSaved=false mDestroyed=false
+    Added Fragments:
+      #0: WeatherNowFragment{1ee112c #1 id=0x7f0c006f}
+      #1: ForecastFragment{f25cb4c #0 id=0x7f0c006f}
+    FragmentManager misc state:
+      mHost=android.support.v4.app.FragmentActivity$HostCallbacks@36837139
+      mContainer=android.support.v4.app.FragmentActivity$HostCallbacks@36837139
+      mCurState=5 mStateSaved=false mDestroyed=false
+    View Hierarchy:
+      com.android.internal.policy.impl.PhoneWindow$DecorView{231443b7 V.E..... ... 0,0-1440,2560}
+        android.widget.LinearLayout{2fb5f28d V.E..... ... 0,0-1440,2368}
+          android.view.ViewStub{266d6c42 G.E..... ... 0,0-0,0 #102036e}
+          android.widget.FrameLayout{309f6453 V.E..... ... 0,100-1440,1467}
+            android.support.v7.widget.FitWindowsLinearLayout{10fd6bc V.E..... ... 0,0-1440,1367 #7f0c0059 app:id/action_bar_root}
+              android.support.v7.widget.ViewStubCompat{1893e645 G.E..... ... 0,0-0,0 #7f0c005a app:id/action_mode_bar_stub}
+              android.support.v7.widget.ContentFrameLayout{22b50acb V.E..... ... 0,0-1440,1367 #1020002 android:id/content}
+                android.widget.RelativeLayout{2311a1c1 V.E..... ... 0,0-1440,1367}
+                  android.support.v7.widget.AppCompatButton{2a10dd66 VFED..C. ... 929,64-1400,256 #7f0c006d app:id/weatherBtn}
+                  android.support.v7.widget.AppCompatEditText{65466ec VFED..CL F.. 0,64-929,245 #7f0c006e app:id/locationET}
+                  android.support.v4.view.ViewPager{1424b7f0 VFED.... ... 0,245-1440,1303 #7f0c006f app:id/pager}
+                    android.widget.RelativeLayout{260c952 V.E..... ... 1440,0-2880,1058}
+                      android.support.v7.widget.RecyclerView{7f8e423 VFED.V.. ... 0,0-1440,1058 #7f0c0081 app:id/recycler_view}
+                        android.widget.RelativeLayout{2dfc6d1f VFE...C. ... 0,0-1440,282}
+                          android.support.v7.widget.AppCompatImageView{15a77e35 V.ED.... ... 64,40-64,40 #7f0c007b app:id/forecastIV}
+                          android.support.v7.widget.AppCompatTextView{12c312ca V.ED.... ... 1229,80-1376,156 #7f0c007c app:id/tempInfo}
+                          android.support.v7.widget.AppCompatTextView{3f04bc3b V.ED.... ... 104,40-1229,126 #7f0c007d app:id/dateTV}
+                          android.support.v7.widget.AppCompatTextView{17004f58 V.ED.... ... 64,166-64,242 #7f0c007e app:id/dayTV}
+                          android.support.v7.widget.AppCompatTextView{195ec8b1 V.ED.... ... 64,166-64,242 #7f0c007f app:id/weatcherTypeTV}
+                          android.support.v7.widget.AppCompatTextView{18679196 V.ED.... ... 64,40-64,116 #7f0c0080 app:id/type}
+                        android.widget.RelativeLayout{a077b3 VFE...C. ... 0,285-1440,567}
+                          android.support.v7.widget.AppCompatImageView{303db170 V.ED.... ... 64,40-64,40 #7f0c007b app:id/forecastIV}
+                          android.support.v7.widget.AppCompatTextView{2f4dce9 V.ED.... ... 1229,80-1376,156 #7f0c007c app:id/tempInfo}
+                          android.support.v7.widget.AppCompatTextView{22c73d6e V.ED.... ... 104,40-1229,126 #7f0c007d app:id/dateTV}
+                          android.support.v7.widget.AppCompatTextView{34a0dc0f V.ED.... ... 64,166-64,242 #7f0c007e app:id/dayTV}
+                          android.support.v7.widget.AppCompatTextView{2e24749c V.ED.... ... 64,166-64,242 #7f0c007f app:id/weatcherTypeTV}
+                          android.support.v7.widget.AppCompatTextView{db55ea5 V.ED.... ... 64,40-64,116 #7f0c0080 app:id/type}
+                        android.widget.RelativeLayout{11458c46 VFE...C. ... 0,570-1440,852}
+                          android.support.v7.widget.AppCompatImageView{f7e3e07 V.ED.... ... 64,40-64,40 #7f0c007b app:id/forecastIV}
+                          android.support.v7.widget.AppCompatTextView{1010bb34 V.ED.... ... 1229,80-1376,156 #7f0c007c app:id/tempInfo}
+                          android.support.v7.widget.AppCompatTextView{2e61bd5d V.ED.... ... 104,40-1229,126 #7f0c007d app:id/dateTV}
+                          android.support.v7.widget.AppCompatTextView{1a3e26d2 V.ED.... ... 64,166-64,242 #7f0c007e app:id/dayTV}
+                          android.support.v7.widget.AppCompatTextView{34b6b3a3 V.ED.... ... 64,166-64,242 #7f0c007f app:id/weatcherTypeTV}
+                          android.support.v7.widget.AppCompatTextView{2f9856a0 V.ED.... ... 64,40-64,116 #7f0c0080 app:id/type}
+                        android.widget.RelativeLayout{17f43b15 VFE...C. ... 0,855-1440,1137}
+                          android.support.v7.widget.AppCompatImageView{243bbe2a V.ED.... ... 64,40-64,40 #7f0c007b app:id/forecastIV}
+                          android.support.v7.widget.AppCompatTextView{1fdcf41b V.ED.... ... 1229,80-1376,156 #7f0c007c app:id/tempInfo}
+                          android.support.v7.widget.AppCompatTextView{b5659b8 V.ED.... ... 104,40-1229,126 #7f0c007d app:id/dateTV}
+                          android.support.v7.widget.AppCompatTextView{3f6a7391 V.ED.... ... 64,166-64,242 #7f0c007e app:id/dayTV}
+                          android.support.v7.widget.AppCompatTextView{22af92f6 V.ED.... ... 64,166-64,242 #7f0c007f app:id/weatcherTypeTV}
+                          android.support.v7.widget.AppCompatTextView{23ccb6f7 V.ED.... ... 64,40-64,116 #7f0c0080 app:id/type}
+                    android.widget.LinearLayout{4c030aa V.E..... ... 0,0-1440,1058 #7f0c008f app:id/productDtlContainerLL}
+                      android.support.v7.widget.AppCompatTextView{2224b49b V.ED.... ... 40,0-1146,86 #7f0c0047 app:id/title}
+                      android.support.v7.widget.AppCompatTextView{38a5038 VFED..CL ... 0,126-1440,334 #7f0c0090 app:id/price}
+                      android.widget.LinearLayout{2f48ad76 V.E..... ... 0,334-1440,1058}
+                        android.widget.LinearLayout{260fff77 V.E..... ... 0,0-165,86}
+                          android.support.v7.widget.AppCompatImageView{21b037e4 V.ED.... ... 0,0-0,0}
+                          android.support.v7.widget.AppCompatTextView{2767744d V.ED.... ... 40,0-165,86 #7f0c0091 app:id/currentTemp}
+                          android.support.v7.widget.AppCompatTextView{d0a2b02 V.ED.... ... 165,8-165,84 #7f0c0092 app:id/maxMinTemp}
+                        android.widget.LinearLayout{2bfb1c13 V.E..... ... 165,0-1440,724}
+                          android.support.v7.widget.AppCompatTextView{62aee50 V.ED.... ... 40,0-426,86 #7f0c0093 app:id/climateTV}
+                          android.support.v7.widget.AppCompatTextView{16c40849 V.ED.... ... 0,206-362,282 #7f0c0094 app:id/humidityTV}
+                          android.support.v7.widget.AppCompatTextView{1d73f54e V.ED.... ... 0,322-1275,398 #7f0c0095 app:id/windTV}
+                          android.support.v7.widget.AppCompatTextView{2771666f V.ED.... ... 0,438-410,514 #7f0c0096 app:id/visibilityTV}
+                          android.support.v7.widget.AppCompatTextView{1589f7c V.ED.... ... 0,554-434,630 #7f0c0097 app:id/sunriseTV}
+                          android.support.v7.widget.AppCompatTextView{293be005 V.ED.... ... 0,670-451,724 #7f0c0098 app:id/sunsetTV}
+                  android.widget.LinearLayout{374da169 V.E..... ... 0,64-1440,64 #7f0c0070 app:id/pagesContainer}
+        android.view.View{354b0abd V.ED.... ... 0,0-1440,100 #102002f android:id/statusBarBackground}
+        android.view.View{19b33003 V.ED.... ... 0,2368-1440,2560 #1020030 android:id/navigationBarBackground}

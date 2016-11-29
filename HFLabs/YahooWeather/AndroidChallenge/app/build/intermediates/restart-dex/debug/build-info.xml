@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="arm64-v8a,armeabi-v7a,armeabi"
+    api-level="21"
+    density="xxxhdpi"
+    format="7"
+    timestamp="4194587009981"
+    token="-8885552222144902856" >
+
+    <task
+        name="javac"
+        duration="615" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="78" />
+    <task
+        name="verifier"
+        duration="2215" />
+
+    <artifact
+        location="/Users/sunilkumarsahoo/Desktop/Sample/Android Challenge/AndroidChallenge/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
+
+    <build timestamp="4194587009981" >
+        <artifact
+            location="/Users/sunilkumarsahoo/Desktop/Sample/Android Challenge/AndroidChallenge/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Yahoo Weather</string>
+    <string name="location_hint">Enter Location</string>
+    <string name="temperature_format">%1$s/%2$s</string>
+    <string name="weather_btn">Get Weather</string>
+    <string name="error">Unable to find weather Details</string>
+    <string name="current_temp">%1$s</string>
+    <string name="max_min_temp">H:%1$s/L:%2$s</string>
+    <string name="humidity">HUMIDITY : %1$s</string>
+    <string name="wind">WINDS : %1$s</string>
+    <string name="visibility">VISIBILITY : %1$s</string>
+    <string name="sunrise">SUNRISE : %1$s</string>
+    <string name="sunset">SUNSET : %1$s</string>
+</resources>

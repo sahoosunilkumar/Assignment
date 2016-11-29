@@ -1,0 +1,178 @@
+AGGREGATED OVER LAST 24 HOURS:
+System memory usage:
+  SOff/Norm: 6 samples:
+    Cached: 694MB min, 1.2GB avg, 1.4GB max
+    Free: 51MB min, 159MB avg, 638MB max
+    ZRam: 4.0KB min, 429KB avg, 2.5MB max
+    Kernel: 78MB min, 104MB avg, 116MB max
+    Native: 195MB min, 204MB avg, 209MB max
+  SOn /Norm: 6 samples:
+    Cached: 1.1GB min, 1.4GB avg, 1.5GB max
+    Free: 51MB min, 67MB avg, 101MB max
+    ZRam: 4.0KB min, 120KB avg, 704KB max
+    Kernel: 97MB min, 104MB avg, 112MB max
+    Native: 200MB min, 204MB avg, 209MB max
+
+Per-Package Stats:
+  * com.sunilsahoo.httpconnection / u0a150 / v1:
+      * com.sunilsahoo.httpconnection / u0a150 / v1:
+               TOTAL: 0.15% (51MB-51MB-51MB/47MB-47MB-47MB over 1)
+                 Top: 0.15% (51MB-51MB-51MB/47MB-47MB-47MB over 1)
+            (Cached): 0.04%
+  * com.sunilsahoo.httpconnection / u0a152 / v1:
+      * com.sunilsahoo.httpconnection / u0a152 / v1:
+               TOTAL: 6.4% (17MB-19MB-19MB/13MB-14MB-15MB over 17)
+                 Top: 6.4% (17MB-19MB-19MB/13MB-14MB-15MB over 17)
+          (Last Act): 0.01%
+            (Cached): 2.3% (16MB-16MB-16MB/11MB-11MB-12MB over 3)
+  * com.sunilsahoo.httpconnection / u0a213 / v1:
+      * com.sunilsahoo.httpconnection / u0a213 / v1:
+               TOTAL: 3.1% (4.1MB-16MB-21MB/2.2MB-12MB-16MB over 14)
+                 Top: 3.1% (4.1MB-16MB-21MB/2.2MB-12MB-16MB over 14)
+            (Cached): 0.86% (11MB-13MB-16MB/7.8MB-9.1MB-11MB over 3)
+  * com.sunilsahoo.httpconnection / u0a214 / v1:
+      * com.sunilsahoo.httpconnection / u0a214 / v1:
+               TOTAL: 4.8% (18MB-24MB-30MB/14MB-19MB-25MB over 13)
+                 Top: 4.8% (18MB-24MB-30MB/14MB-19MB-25MB over 13)
+          (Last Act): 0.01%
+            (Cached): 7.1% (16MB-19MB-21MB/12MB-14MB-15MB over 3)
+
+Summary:
+  * com.sunilsahoo.httpconnection / u0a152 / v1:
+           TOTAL: 6.4% (17MB-19MB-19MB/13MB-14MB-15MB over 17)
+             Top: 6.4% (17MB-19MB-19MB/13MB-14MB-15MB over 17)
+      (Last Act): 0.01%
+        (Cached): 2.3% (16MB-16MB-16MB/11MB-11MB-12MB over 3)
+  * com.sunilsahoo.httpconnection / u0a214 / v1:
+           TOTAL: 4.8% (18MB-24MB-30MB/14MB-19MB-25MB over 13)
+             Top: 4.8% (18MB-24MB-30MB/14MB-19MB-25MB over 13)
+      (Last Act): 0.01%
+        (Cached): 7.1% (16MB-19MB-21MB/12MB-14MB-15MB over 3)
+  * com.sunilsahoo.httpconnection / u0a213 / v1:
+           TOTAL: 3.1% (4.1MB-16MB-21MB/2.2MB-12MB-16MB over 14)
+             Top: 3.1% (4.1MB-16MB-21MB/2.2MB-12MB-16MB over 14)
+        (Cached): 0.86% (11MB-13MB-16MB/7.8MB-9.1MB-11MB over 3)
+  * com.sunilsahoo.httpconnection / u0a150 / v1:
+           TOTAL: 0.15% (51MB-51MB-51MB/47MB-47MB-47MB over 1)
+             Top: 0.15% (51MB-51MB-51MB/47MB-47MB-47MB over 1)
+        (Cached): 0.04%
+
+Run time Stats:
+  SOff/Norm: +1h19m1s129ms
+  SOn /Norm: +6h1m51s12ms
+      TOTAL: +7h20m52s141ms
+
+Memory usage:
+  Kernel : 104MB (84 samples)
+  Native : 204MB (84 samples)
+  Persist: 253MB (273 samples)
+  Top    : 67MB (567 samples)
+  ImpFg  : 171MB (1186 samples)
+  ImpBg  : 72MB (504 samples)
+  Service: 77MB (1740 samples)
+  Receivr: 321KB (1570 samples)
+  Home   : 32MB (107 samples)
+  LastAct: 37MB (163 samples)
+  CchAct : 103KB (20 samples)
+  CchCAct: 21MB (13 samples)
+  CchEmty: 191MB (948 samples)
+  Cached : 1.3GB (84 samples)
+  Free   : 83MB (84 samples)
+  Z-Ram   : 175KB (84 samples)
+  TOTAL  : 2.6GB
+  ServRst: 8.0KB (566 samples)
+
+          Start time: 2016-11-05 13:17:47
+  Total elapsed time: +2d1h28m20s864ms (partial) libart.so
+
+AGGREGATED OVER LAST 3 HOURS:
+Per-Package Stats:
+  * com.sunilsahoo.httpconnection / u0a213 / v1:
+      * com.sunilsahoo.httpconnection / u0a213 / v1:
+               TOTAL: 4.5% (4.1MB-18MB-21MB/2.2MB-13MB-16MB over 8)
+                 Top: 4.5% (4.1MB-18MB-21MB/2.2MB-13MB-16MB over 8)
+            (Cached): 1.4% (16MB-16MB-16MB/11MB-11MB-11MB over 1)
+  * com.sunilsahoo.httpconnection / u0a214 / v1:
+      * com.sunilsahoo.httpconnection / u0a214 / v1:
+               TOTAL: 23% (18MB-24MB-30MB/14MB-19MB-25MB over 13)
+                 Top: 23% (18MB-24MB-30MB/14MB-19MB-25MB over 13)
+          (Last Act): 0.03%
+            (Cached): 34% (16MB-19MB-21MB/12MB-14MB-15MB over 3)
+
+Summary:
+  * com.sunilsahoo.httpconnection / u0a214 / v1:
+           TOTAL: 23% (18MB-24MB-30MB/14MB-19MB-25MB over 13)
+             Top: 23% (18MB-24MB-30MB/14MB-19MB-25MB over 13)
+      (Last Act): 0.03%
+        (Cached): 34% (16MB-19MB-21MB/12MB-14MB-15MB over 3)
+  * com.sunilsahoo.httpconnection / u0a213 / v1:
+           TOTAL: 4.5% (4.1MB-18MB-21MB/2.2MB-13MB-16MB over 8)
+             Top: 4.5% (4.1MB-18MB-21MB/2.2MB-13MB-16MB over 8)
+        (Cached): 1.4% (16MB-16MB-16MB/11MB-11MB-11MB over 1)
+
+Run time Stats:
+  SOn /Norm: +1h32m12s58ms
+      TOTAL: +1h32m12s58ms
+
+Memory usage:
+  Persist: 263MB (42 samples)
+  Top    : 51MB (70 samples)
+  ImpFg  : 190MB (101 samples)
+  ImpBg  : 65MB (42 samples)
+  Service: 80MB (136 samples)
+  Receivr: 41KB (93 samples)
+  Home   : 16MB (5 samples)
+  LastAct: 60MB (21 samples)
+  CchCAct: 34MB (3 samples)
+  CchEmty: 157MB (119 samples)
+  TOTAL  : 0.90GB
+  ServRst: 1.2KB (27 samples)
+
+          Start time: 2016-11-08 00:55:02
+  Total elapsed time: +1h32m12s58ms (partial) libart.so
+
+CURRENT STATS:
+Per-Package Stats:
+  * com.sunilsahoo.httpconnection / u0a213 / v1:
+      * com.sunilsahoo.httpconnection / u0a213 / v1:
+               TOTAL: 4.5% (4.1MB-18MB-21MB/2.2MB-13MB-16MB over 8)
+                 Top: 4.5% (4.1MB-18MB-21MB/2.2MB-13MB-16MB over 8)
+            (Cached): 1.4% (16MB-16MB-16MB/11MB-11MB-11MB over 1)
+  * com.sunilsahoo.httpconnection / u0a214 / v1:
+      * com.sunilsahoo.httpconnection / u0a214 / v1:
+               TOTAL: 23% (18MB-24MB-30MB/14MB-19MB-25MB over 13)
+                 Top: 23% (18MB-24MB-30MB/14MB-19MB-25MB over 13)
+          (Last Act): 0.03%
+            (Cached): 34% (16MB-19MB-21MB/12MB-14MB-15MB over 3)
+
+Summary:
+  * com.sunilsahoo.httpconnection / u0a214 / v1:
+           TOTAL: 23% (18MB-24MB-30MB/14MB-19MB-25MB over 13)
+             Top: 23% (18MB-24MB-30MB/14MB-19MB-25MB over 13)
+      (Last Act): 0.03%
+        (Cached): 34% (16MB-19MB-21MB/12MB-14MB-15MB over 3)
+  * com.sunilsahoo.httpconnection / u0a213 / v1:
+           TOTAL: 4.5% (4.1MB-18MB-21MB/2.2MB-13MB-16MB over 8)
+             Top: 4.5% (4.1MB-18MB-21MB/2.2MB-13MB-16MB over 8)
+        (Cached): 1.4% (16MB-16MB-16MB/11MB-11MB-11MB over 1)
+
+Run time Stats:
+  SOn /Norm: +1h32m11s927ms (running)
+      TOTAL: +1h32m11s927ms
+
+Memory usage:
+  Persist: 263MB (42 samples)
+  Top    : 51MB (70 samples)
+  ImpFg  : 190MB (101 samples)
+  ImpBg  : 65MB (42 samples)
+  Service: 80MB (136 samples)
+  Receivr: 41KB (93 samples)
+  Home   : 16MB (5 samples)
+  LastAct: 60MB (21 samples)
+  CchCAct: 34MB (3 samples)
+  CchEmty: 157MB (119 samples)
+  TOTAL  : 0.90GB
+  ServRst: 1.2KB (27 samples)
+
+          Start time: 2016-11-08 00:55:02
+  Total elapsed time: +1h32m12s76ms (partial) libart.so

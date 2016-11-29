@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/sunilkumarsahoo/Desktop/Sample/Android Challenge/AndroidChallenge/app/build/intermediates/exploded-aar/com.android.databinding/adapters/1.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="3cae403175958af8baa00bed0bd6e04187d69415">
+        <dex dex="/Users/sunilkumarsahoo/Desktop/Sample/Android Challenge/AndroidChallenge/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.databinding-adapters-1.1_1d602a5f21e2d1e9ed7e46b61253daa9a08e82f8/classes.dex" />
+    </item>
+    <item
+        jar="/Users/sunilkumarsahoo/Desktop/Sample/Android Challenge/AndroidChallenge/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/sunilkumarsahoo/Desktop/Sample/Android Challenge/AndroidChallenge/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.4.0_64feae5402b3ae8676dde3589d95e29b94d9f3d4/classes.dex" />
+    </item>
+    <item
+        jar="/Applications/Android Studio.app/Contents/gradle/m2repository/com/android/databinding/baseLibrary/2.1.2/baseLibrary-2.1.2.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="357d1307d303c4771283372a53fd7c45e0c19c89">
+        <dex dex="/Users/sunilkumarsahoo/Desktop/Sample/Android Challenge/AndroidChallenge/app/build/intermediates/transforms/dex/debug/folders/1000/10/baseLibrary-2.1.2_e874a79ced6bda04e46ee4b599aee642f2b026c5/classes.dex" />
+    </item>
+    <item
+        jar="/Users/sunilkumarsahoo/Desktop/Sample/Android Challenge/AndroidChallenge/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/Users/sunilkumarsahoo/Desktop/Sample/Android Challenge/AndroidChallenge/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.4.0_675eded0e76b5731333deb951952bdb750447a3b/classes.dex" />
+    </item>
+    <item
+        jar="/Users/sunilkumarsahoo/Desktop/Sample/Android Challenge/AndroidChallenge/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="/Users/sunilkumarsahoo/Desktop/Sample/Android Challenge/AndroidChallenge/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.4.0_1bbe05d604e6e742f4fb7315975b56f3bf77509e/classes.dex" />
+    </item>
+    <item
+        jar="/Users/sunilkumarsahoo/Desktop/Sample/Android Challenge/AndroidChallenge/app/build/intermediates/exploded-aar/com.android.databinding/library/1.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="d985cdf99de8a63824b52d8a8efc309f9e5fbf01">
+        <dex dex="/Users/sunilkumarsahoo/Desktop/Sample/Android Challenge/AndroidChallenge/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.databinding-library-1.1_31f016287cea64abda14441d33d790d6f3b2352d/classes.dex" />
+    </item>
+    <item
+        jar="/Users/sunilkumarsahoo/Desktop/Sample/Android Challenge/AndroidChallenge/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="5a0ae785c72b1d1659283f1d5fab67711e5f525e">
+        <dex dex="/Users/sunilkumarsahoo/Desktop/Sample/Android Challenge/AndroidChallenge/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_f33ba267422e6e7c161f7dbbcd92a53d3b3e95d6/classes.dex" />
+    </item>
+    <item
+        jar="/Users/sunilkumarsahoo/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.3/91ac0b4c3a38b721c7548baa239950f23b65b56e/gson-2.2.3.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="91ac0b4c3a38b721c7548baa239950f23b65b56e">
+        <dex dex="/Users/sunilkumarsahoo/Desktop/Sample/Android Challenge/AndroidChallenge/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.2.3_f3609dbb9d5c89375ee8a1834682abaca3db40bb/classes.dex" />
+    </item>
+    <item
+        jar="/Users/sunilkumarsahoo/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/sunilkumarsahoo/Desktop/Sample/Android Challenge/AndroidChallenge/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.4.0_cd31b6f29b1bbd06fb5e168afa3705362ae3ae7a/classes.dex" />
+    </item>
+    <item
+        jar="/Users/sunilkumarsahoo/Desktop/Sample/Android Challenge/AndroidChallenge/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="f0a0467da3034b490b04fa7944037fac7520d443">
+        <dex dex="/Users/sunilkumarsahoo/Desktop/Sample/Android Challenge/AndroidChallenge/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_d451b76628ffab89922cb6d25a5dd42d0ff2e862/classes.dex" />
+    </item>
+    <item
+        jar="/Users/sunilkumarsahoo/Desktop/Sample/Android Challenge/AndroidChallenge/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/sunilkumarsahoo/Desktop/Sample/Android Challenge/AndroidChallenge/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.4.0_f849b1ff3f1d64919c25916d0ea5c309d17e0adf/classes.dex" />
+    </item>
+    <item
+        jar="/Users/sunilkumarsahoo/Desktop/Sample/Android Challenge/AndroidChallenge/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/sunilkumarsahoo/Desktop/Sample/Android Challenge/AndroidChallenge/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.4.0_ed950657eac99a8e4adaf0381d5daf81c2066270/classes.dex" />
+    </item>
+    <item
+        jar="/Users/sunilkumarsahoo/Desktop/Sample/Android Challenge/AndroidChallenge/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/sunilkumarsahoo/Desktop/Sample/Android Challenge/AndroidChallenge/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.4.0_7f9f40cd9fdb9607dda723b38661f270088115a4/classes.dex" />
+    </item>
+    <item
+        jar="/Users/sunilkumarsahoo/Desktop/Sample/Android Challenge/AndroidChallenge/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/sunilkumarsahoo/Desktop/Sample/Android Challenge/AndroidChallenge/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.4.0_9204c0dbd074ba822973759d7c071b88365f32fb/classes.dex" />
+    </item>
+
+</items>
