@@ -1,0 +1,43 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Product">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="Product.Title">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#3d464d</item>
+        <item name="android:layout_marginBottom">5dp</item>
+    </style>
+    <style name="Product.Name">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#3d464d</item>
+    </style>
+    <style name="Product.Price">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#303030</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Product.DelPrice">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#DCDBD9</item>
+        <item name="android:background">@drawable/strike</item>
+    </style>
+    <style name="Product.Badge">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+    </style>
+
+</resources>
