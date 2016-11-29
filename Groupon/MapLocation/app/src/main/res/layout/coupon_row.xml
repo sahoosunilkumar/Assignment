@@ -1,0 +1,100 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    >
+
+    <data>
+
+        <variable
+            name="coupon"
+            type="com.sunilsahoo.maplocation.model.Coupon"/>
+    </data>
+    <android.support.v7.widget.CardView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        cardview:cardCornerRadius="2dp">
+<LinearLayout
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                style="@style/ItemOfferValue"
+                android:text="@{coupon.value}"
+                android:id="@+id/value"/>
+            <View
+                style="@style/ItemSeparator"
+                android:id="@+id/separator"
+                android:layout_toRightOf="@+id/value"/>
+            <TextView
+                style="@style/ItemHeader"
+                android:text="@{coupon.title}"
+                android:id="@+id/title"
+                android:layout_toRightOf="@+id/separator"/>
+            <RelativeLayout android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_below="@+id/title"
+                            android:id="@+id/descriptionRL"
+                android:layout_alignStart="@+id/title">
+
+                <TextView
+                    style="@style/ViewMore"
+                    android:text="@string/show_more"
+                    android:id="@+id/showMore"
+                    android:layout_alignParentRight="true"/>
+                <TextView
+                    style="@style/ItemBody"
+                    android:text="@{coupon.description}"
+                    android:id="@+id/description"
+                    android:layout_toLeftOf="@+id/showMore"
+                    android:layout_alignParentLeft="true"/>
+
+            </RelativeLayout>
+            <TextView
+                style="@style/ItemBody"
+                android:text="@{coupon.tag}"
+                android:id="@+id/tag"
+                android:layout_below="@+id/descriptionRL"
+                />
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/greyLight"
+            android:layout_marginTop="5dp"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/footer">
+
+            <TextView
+                style="@style/CardFooterLeft"
+                android:text="@{coupon.endDate}"
+                android:id="@+id/validity"/>
+            <TextView
+                style="@style/CardFooterRight"
+                android:text="@string/show_coupon"
+                android:id="@+id/couponcode"
+                android:background="#5eaef5"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
+    </android.support.v7.widget.CardView>
+    </layout>

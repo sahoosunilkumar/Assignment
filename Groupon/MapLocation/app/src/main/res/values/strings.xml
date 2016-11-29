@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Map Location</string>
+    <string name="no_maps">Google Maps V2 not available!</string>
+    <string name="show_coupon">Show Coupon Code</string>
+    <string name="activate_offer">activate offer</string>
+    <string name="show_more">Show More</string>
+    <bool name="use_hardcode_location">true</bool>
+</resources>
