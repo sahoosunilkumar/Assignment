@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Product Viewer</string>
+
+    <string name="error">Error in retrieving data</string>
+    <string name="transaction_info">%1s transactions</string>
+    <string name="total_transaction">Total: %1s</string>
+    <string name="transactions_title">Transactions for: %1s</string>
+    <string name="products_title">Products</string>
+</resources>
