@@ -1,5 +1,7 @@
 package com.landmarkshopping.network;
 
+import android.util.Log;
+
 import com.landmarkshopping.assignment.model.Product;
 import com.landmarkshopping.network.model.Request;
 import com.landmarkshopping.network.model.Response;
@@ -55,7 +57,8 @@ public class JSoupParser {
             product.setName(carouselDtl.getElementsByClass("title").get(1)
                     .text());
             product.setImagePath(carouselDtl.getElementsByClass("img-holder")
-                    .get(0).getElementsByTag("img").first().absUrl("src"));
+                    .get(0).getElementsByTag("img").attr("data-src"));
+
             product.setBadge(carouselDtl.getElementsByClass("img-holder").get
                     (0).getElementsByClass("badge").text());
             product.setPrice(carouselDtl.getElementsByClass("price").first()

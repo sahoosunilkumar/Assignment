@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Location Finder</string>
+    <string name="no_maps">Google Maps V2 not available!</string>
+
+    <string name="location_hint">Enter zipcode</string>
+    <string name="activate_offer">activate offer</string>
+    <string name="show_more">Show More</string>
+    <string name="address">Address : </string>
+    <string name="zipcode">Zipcode : </string>
+    <string name="longitude">Longitude : </string>
+    <string name="latitude">Latitude : </string>
+    <string name="error">Result Not Found </string>
+    <bool name="use_hardcode_location">true</bool>
+</resources>
