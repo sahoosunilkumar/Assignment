@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/sunilkumarsahoo/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit/1.9.0/a681c044244d9fc375198588297a39ba78028423/retrofit-1.9.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="a681c044244d9fc375198588297a39ba78028423">
+        <dex dex="/Users/sunilkumarsahoo/Desktop/Sample/Assignment/Novus/app/build/intermediates/pre-dexed/debug/retrofit-1.9.0_a2f9d5483bd01d13804ffbe4c91ee2a30c5be9ba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunilkumarsahoo/Desktop/Sample/Assignment/Novus/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/sunilkumarsahoo/Desktop/Sample/Assignment/Novus/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-22.2.0_408371f53f310098b371377f558ea690891076f8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunilkumarsahoo/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.0.14/898f9ab61e2a23afd615f0b0389478bec86f49f9/rxjava-1.0.14.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="898f9ab61e2a23afd615f0b0389478bec86f49f9">
+        <dex dex="/Users/sunilkumarsahoo/Desktop/Sample/Assignment/Novus/app/build/intermediates/pre-dexed/debug/rxjava-1.0.14_12f027a86f3fc2634c7311fa26381395000948e1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunilkumarsahoo/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/Users/sunilkumarsahoo/Desktop/Sample/Assignment/Novus/app/build/intermediates/pre-dexed/debug/gson-2.3.1_69be3c5601a768c0c33292c6523f69c184ff7c40.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunilkumarsahoo/Desktop/Sample/Assignment/Novus/app/build/intermediates/exploded-aar/io.reactivex/rxandroid/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="aa81bfe8c5cc88c2472ca936ae71f0c3dd1766df">
+        <dex dex="/Users/sunilkumarsahoo/Desktop/Sample/Assignment/Novus/app/build/intermediates/pre-dexed/debug/io.reactivex-rxandroid-1.0.1_effb0a2041ada850f2de1361ebc3cb5b0d2bf915.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunilkumarsahoo/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/7.0.1/d5d13ea991eab0252e3710e5df3d6a9d4b21d461/butterknife-7.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="/Users/sunilkumarsahoo/Desktop/Sample/Assignment/Novus/app/build/intermediates/pre-dexed/debug/butterknife-7.0.1_43f404c7afb050bfc7993cab2abd917b9b21f15a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunilkumarsahoo/Desktop/Sample/Assignment/Novus/app/build/intermediates/exploded-aar/com.android.support/design/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="fc63b820d54c8a27a3a614bdd93920e0076581c2">
+        <dex dex="/Users/sunilkumarsahoo/Desktop/Sample/Assignment/Novus/app/build/intermediates/pre-dexed/debug/com.android.support-design-22.2.0_e42182e044ae8f9e6329deb8ef1ad852c9b2c5df.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunilkumarsahoo/Desktop/Sample/Assignment/Novus/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/Users/sunilkumarsahoo/Desktop/Sample/Assignment/Novus/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-22.2.0_241493ad52b04e64ea5a67330036705439fc95ca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunilkumarsahoo/Desktop/Sample/Assignment/Novus/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/sunilkumarsahoo/Desktop/Sample/Assignment/Novus/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0_3374d7f9daf66563466bd3fbefeafb8e654820bb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunilkumarsahoo/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/Users/sunilkumarsahoo/Desktop/Sample/Assignment/Novus/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0_be8725ccd216e770c0792c1f6690ceb691d8409b.jar" />
+    </item>
+
+</items>

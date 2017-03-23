@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="manuelvicnt.com.rxjava_android_structure.test">
+
+    <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="22" />
+
+    <application>
+        <uses-library android:name="android.test.runner" />
+    </application>
+
+    <instrumentation android:name="android.test.InstrumentationTestRunner"
+                     android:targetPackage="manuelvicnt.com.rxjava_android_structure"
+                     android:handleProfiling="false"
+                     android:functionalTest="false"
+                     android:label="Tests for manuelvicnt.com.rxjava_android_structure"/>
+</manifest>
