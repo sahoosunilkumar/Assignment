@@ -1,0 +1,6 @@
+Key Features
+1) Developed using MVVM
+2) No external library is used (even for network call and async operation)
+3) Screen Orientation Change handled (using my own library)
+
+Time Taken : 3.5 hours

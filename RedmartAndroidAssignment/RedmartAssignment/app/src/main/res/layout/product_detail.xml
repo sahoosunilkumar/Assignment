@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <data>
+
+        <variable
+            name="productDetailViewModel"
+            type="com.redmart.assignment.grocery.productdetail.ProductDetailViewModel"/>
+
+        <import type="android.view.View"/>
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.synnapps.carouselview.CarouselView
+            android:id="@+id/carouselView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:fillColor="#FFFFFFFF"
+            app:pageColor="#00000000"
+            app:radius="6dp"
+            app:slideInterval="3000"
+            app:strokeColor="#FF777777"
+            app:strokeWidth="1dp"/>
+
+        <TextView
+            style="@style/Product.Title"
+            android:layout_alignParentTop="true"
+            android:text="@{productDetailViewModel.productDetail.product.title}"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"/>
+
+
+        <TextView
+            style="@style/Product.Freshness"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/rounded_right"
+            android:text="@{String.format(@string/freshness, productDetailViewModel.productDetail.product.productLife.time)}"
+            android:visibility="@{productDetailViewModel.productDetail.product.productLife!= null? View.VISIBLE : View.GONE}"/>
+
+        <TextView
+            style="@style/Product"
+            android:text="@{String.valueOf(productDetailViewModel.productDetail.product.measure.wtOrVol)}"/>
+
+        <TextView
+            style="@style/Product.Price"
+            android:text='@{"$"+productDetailViewModel.productDetail.product.pricing.price}'/>
+
+        <ProgressBar
+            android:id="@+id/progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:visibility="@{productDetailViewModel.showProgress? View.VISIBLE : View.GONE}"
+            />
+    </LinearLayout>
+</layout>

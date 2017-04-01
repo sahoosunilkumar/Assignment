@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="$PROJECT_DIR$/../../Redmart Android Assignment/Redmart Assignment/app/src/main/java/com/xing/assignment/repository/repositorydetails/ListActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Redmart Android Assignment/Redmart Assignment/app/src/main/res/layout/activity_main.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Redmart Android Assignment/Redmart Assignment/app/src/main/res/layout/item_row.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Redmart Android Assignment/Redmart Assignment/app/src/main/res/values/colors.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Redmart Android Assignment/Redmart Assignment/app/src/main/res/values/dimens.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/POC/Tesco Native UI POC/MyApplication/app/src/main/java/com/tesco/poc/pdp/DoubleTextView.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/POC/Tesco Native UI POC/MyApplication/app/src/main/res/layout/double_text.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/POC/Tesco Native UI POC/MyApplication/app/src/main/res/layout/product_availability_detail.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/POC/Tesco Native UI POC/MyApplication/app/src/main/res/layout/product_purchase_component.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/POC/Tesco Native UI POC/MyApplication/app/src/main/res/values/attrs.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/POC/Tesco Native UI POC/MyApplication/app/src/main/res/values/colors.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
