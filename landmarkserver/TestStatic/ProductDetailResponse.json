@@ -1,0 +1,78 @@
+{
+	"StatusCode": 0,
+	"StatusInfo": "Request processed successfully.",
+	"IsFavouritesFilterAvailable": "No",
+	"IsSpecialOffersFilterAvailable": "No",
+	"IsNewProductFilterAvailable": "No",
+	"PageNumber": 1,
+	"TotalPageCount": 1,
+	"TotalProductCount": 1,
+	"PageProductCount": 1,
+	"Products": [{
+			"BaseProductId": "50994601",
+			"EANBarcode": "5010003000339",
+			"CheaperAlternativeProductId": "",
+			"HealthierAlternativeProductId": "",
+			"ImagePath": "https://img.tesco.com/Groceries/pi/339/5010003000339/IDShot_90x90.jpg",
+			"AlternativeImages": [{
+				"Name": "ID Shot",
+				"ThumbImageUrl": "https://img.tesco.com/Groceries/pi/339/5010003000339/IDShot_90x90.jpg",
+				"HighestResolutionUrl": "https://img.tesco.com/Groceries/pi/339/5010003000339/IDShot_540x540.jpg"
+			}],
+			"Ingredients": [{
+				"Name": "Nutrition & Ingredients",
+				"Guideline": "Guideline daily amounts",
+				"Contains": "One portion contains",
+				"Hint": "of the reference intake*. Typicaly values per 100g: Energy 1764KJ/422KCal",
+				"Details": [{
+					"Name": "Energy",
+					"QuantityInJoule": "289KJ",
+					"QuantityInCalorie": "68KCal",
+					"Percentage": "23%"
+				}, {
+					"Name": "Fat",
+					"QuantityInJoule": "289KJ",
+					"QuantityInCalorie": "68KCal",
+					"Percentage": "23%"
+				}, {
+					"Name": "Saturates",
+					"QuantityInJoule": "289KJ",
+					"QuantityInCalorie": "68KCal",
+					"Percentage": "23%"
+				}, {
+					"Name": "Sugars",
+					"QuantityInJoule": "289KJ",
+					"QuantityInCalorie": "68KCal",
+					"Percentage": "9%"
+				}, {
+					"Name": "Salt",
+					"QuantityInJoule": "289KJ",
+					"QuantityInCalorie": "68KCal",
+					"Percentage": "23%"
+				}]
+			}],
+			"MaximumPurchaseQuantity": 99,
+			"Name": "Hovis Wholemeal Medium Bread 800G",
+			"OfferPromotion": "",
+			"OfferValidity": "",
+			"OfferLabelImagePath": "",
+			"OfferID": "",
+			"OfferValidFrom": "",
+			"OfferValidUntil": "",
+			"Price": 1.00,
+			"PriceDescription": " (£0.13/100g)",
+			"ProductId": "255000362",
+			"ProductType": "QuantityOnlyProduct",
+			"IsNew": "False",
+			"IsFavourite": "False",
+			"UnitPrice": 0.13,
+			"CarbonDataAvailable": 0,
+			"AddEnabled": "Y",
+			"DeleteEnabled": "Y",
+			"Message": "",
+			"UnitType": "100g",
+			"ExtendedInfoUrl": "https://mobile.tesco.com/Embed/product/255000362"
+		}
+
+	]
+}

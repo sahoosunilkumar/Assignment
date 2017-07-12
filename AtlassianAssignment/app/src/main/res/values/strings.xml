@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Atlassian Assignment</string>
+    <string name="show_json">Show Json</string>
+    <string name="input_hint">Enter Text</string>
+</resources>

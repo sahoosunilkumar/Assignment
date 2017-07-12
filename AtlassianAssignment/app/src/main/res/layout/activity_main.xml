@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable name="chatViewModel" type="com.atlassian.hipchat.assignment.ChatViewModel" />
+        <import type="android.view.View"/>
+    </data>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@={chatViewModel.inputMsgStr}"
+        android:maxLines="10"
+        android:id="@+id/inputET"
+        android:hint="@string/input_hint"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/validate"
+        android:onClick="@{() -> chatViewModel.onValidationClicked()}"
+        android:layout_below="@+id/inputET"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/show_json"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/validate"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_corner">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@{chatViewModel.chatMsgStr}"
+        android:layout_margin="10dp"
+        android:textSize="18sp"
+        />
+    </ScrollView>
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="@{chatViewModel.showProgress? View.VISIBLE : View.GONE}"
+        android:layout_centerInParent="true"
+        />
+
+</RelativeLayout>
+    </layout>

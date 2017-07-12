@@ -2,6 +2,7 @@ package com.shopback.assignment.movies.dashboard;
 
 import android.databinding.ObservableArrayList;
 import android.databinding.ObservableList;
+import android.util.Log;
 
 import com.shopback.assignment.movies.utilities.ImageHelper;
 import com.shopback.assignment.movies.R;
@@ -31,6 +32,7 @@ public class MovieAdapter extends ViewModelRecyclerViewAdapter<ItemRowBinding> {
             this.viewModel.getItems();
         String imageUrl = holder.binding.getMovie().getPosterPath();
         ImageHelper.setImageFromUrl(holder.binding.icon.getContext(), ImageHelper.getLogoPath(imageUrl), holder.binding.icon);
+        Log.d(MovieAdapter.class.getSimpleName(), ""+holder.binding);
     }
 
     @Override
