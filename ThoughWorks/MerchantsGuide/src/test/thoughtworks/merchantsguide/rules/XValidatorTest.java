@@ -1,12 +1,12 @@
 package test.thoughtworks.merchantsguide.rules;
 
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+
 import org.junit.Test;
 
 import com.thoughtworks.merchantsguide.error.ValidatorException;
 import com.thoughtworks.merchantsguide.rules.RulesValidator;
-
-import static org.junit.Assert.assertTrue;
-import static org.junit.Assert.assertFalse;
 
 public class XValidatorTest {
 
@@ -31,7 +31,7 @@ public class XValidatorTest {
 		RulesValidator rulesValidator = new RulesValidator();
 		assertTrue(validate(rulesValidator, "XXXIX"));
 	}
-	
+
 	@Test()
 	public void ValidationSuccessFor_XRomanCharacterFourSuccessionSmallerCharacterInBetween() {
 		// given

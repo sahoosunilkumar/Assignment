@@ -1,10 +1,10 @@
 package test.thoughtworks.merchantsguide.expression;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
-import com.thoughtworks.merchantsguide.database.Data;
 import com.thoughtworks.merchantsguide.expression.ExpressionEvaluator;
 
 public class RomanNumberParserTest {
@@ -13,46 +13,58 @@ public class RomanNumberParserTest {
 		// given
 		ExpressionEvaluator inputDataParser = ExpressionEvaluator.getInstance();
 		inputDataParser.evaluate("glob is I");
-		assertTrue((Data.getValue("glob")==Data.getValue("I")));
+		assertTrue((ExpressionEvaluator.getInstance().getDatabase()
+				.getValue("glob") == ExpressionEvaluator.getInstance()
+						.getDatabase().getValue("I")));
 	}
-	
+
 	@Test()
 	public void ValidationFailureFor_AssetGlobWithV() {
 		ExpressionEvaluator inputDataParser = ExpressionEvaluator.getInstance();
 		inputDataParser.evaluate("glob is I");
-		assertFalse((Data.getValue("glob")==Data.getValue("V")));
+		assertFalse((ExpressionEvaluator.getInstance().getDatabase()
+				.getValue("glob") == ExpressionEvaluator.getInstance()
+						.getDatabase().getValue("V")));
 	}
-	
+
 	@Test()
 	public void ValidationSuccessFor_AssetProkIsV() {
 		// given
 		ExpressionEvaluator inputDataParser = ExpressionEvaluator.getInstance();
 		inputDataParser.evaluate("prok is V");
-		assertTrue((Data.getValue("prok")==Data.getValue("V")));
+		assertTrue((ExpressionEvaluator.getInstance().getDatabase()
+				.getValue("prok") == ExpressionEvaluator.getInstance()
+						.getDatabase().getValue("V")));
 	}
-	
+
 	@Test()
 	public void ValidationSuccessFor_AssetPish() {
 		// given
 		ExpressionEvaluator inputDataParser = ExpressionEvaluator.getInstance();
 		inputDataParser.evaluate("pish is X");
-		assertTrue((Data.getValue("pish")==Data.getValue("X")));
+		assertTrue((ExpressionEvaluator.getInstance().getDatabase()
+				.getValue("pish") == ExpressionEvaluator.getInstance()
+						.getDatabase().getValue("X")));
 	}
-	
+
 	@Test()
 	public void ValidationSuccessFor_AssetTegj() {
 		// given
 		ExpressionEvaluator inputDataParser = ExpressionEvaluator.getInstance();
 		inputDataParser.evaluate("tegj is L");
-		assertTrue((Data.getValue("tegj")==Data.getValue("L")));
+		assertTrue((ExpressionEvaluator.getInstance().getDatabase()
+				.getValue("tegj") == ExpressionEvaluator.getInstance()
+						.getDatabase().getValue("L")));
 	}
-	
+
 	@Test()
 	public void ValidationFailureFor_AssetTegjWithX() {
 		// given
 		ExpressionEvaluator inputDataParser = ExpressionEvaluator.getInstance();
 		inputDataParser.evaluate("tegj is L");
-		assertFalse((Data.getValue("tegj")==Data.getValue("X")));
+		assertFalse((ExpressionEvaluator.getInstance().getDatabase()
+				.getValue("tegj") == ExpressionEvaluator.getInstance()
+						.getDatabase().getValue("X")));
 	}
-	
+
 }

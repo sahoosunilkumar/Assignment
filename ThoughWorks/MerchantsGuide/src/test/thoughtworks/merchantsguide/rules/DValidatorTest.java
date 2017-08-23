@@ -1,16 +1,16 @@
 package test.thoughtworks.merchantsguide.rules;
 
-import org.junit.Test;
-
-import com.thoughtworks.merchantsguide.error.ValidatorException;
-import com.thoughtworks.merchantsguide.rules.DValidator;
-import com.thoughtworks.merchantsguide.rules.IRulesValidator;
-
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
+import org.junit.Test;
+
+import com.thoughtworks.merchantsguide.error.ValidatorException;
+import com.thoughtworks.merchantsguide.rules.IRulesValidator;
+import com.thoughtworks.merchantsguide.rules.romancharrules.DValidator;
+
 public class DValidatorTest {
-	
+
 	@Test()
 	public void ValidationSuccessFor_DRomanCharacterSingle() {
 		// given
@@ -24,7 +24,7 @@ public class DValidatorTest {
 		IRulesValidator rulesValidator = new DValidator();
 		assertFalse(validate(rulesValidator, "IXDD"));
 	}
-	
+
 	@Test()
 	public void ValidationFailureFor_DRomanCharacterRepetitionOtherCharacterInBetween() {
 		// given
@@ -32,7 +32,6 @@ public class DValidatorTest {
 		assertTrue(validate(rulesValidator, "DCD"));
 	}
 
-	
 	@Test()
 	public void ValidationFailureFor_DRomanCharacterSubtractedByOther() {
 		// given
@@ -40,7 +39,8 @@ public class DValidatorTest {
 		assertFalse(validate(rulesValidator, "DM"));
 	}
 
-	private boolean validate(IRulesValidator rulesValidator, String expression) {
+	private boolean validate(IRulesValidator rulesValidator,
+			String expression) {
 		try {
 			rulesValidator.validate(expression);
 			return true;

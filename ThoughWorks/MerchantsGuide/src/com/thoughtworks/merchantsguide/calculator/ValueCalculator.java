@@ -2,9 +2,15 @@ package com.thoughtworks.merchantsguide.calculator;
 
 import java.util.Stack;
 
-import com.thoughtworks.merchantsguide.database.Data;
+import com.thoughtworks.merchantsguide.expression.ExpressionEvaluator;
 
-public class ValueCalculator {
+/**
+ * calculates the expression
+ * 
+ * @author sunilkumarsahoo
+ *
+ */
+public class ValueCalculator implements ICalculator {
 
 	private Stack<String> stack = new Stack<>();
 	private String expression;
@@ -24,12 +30,20 @@ public class ValueCalculator {
 		}
 	}
 
-	public float evaluate() {
+	/**
+	 * calculates
+	 * 
+	 * @return
+	 */
+	@Override
+	public float calculate() {
 		float creditCarry = 1.0f;
 		while (!stack.isEmpty()) {
 			String data = stack.pop();
-			if (!Data.isLocale(data)) {
-				currValue = Data.getValue(data);
+			if (!ExpressionEvaluator.getInstance().getDatabase()
+					.isLocale(data)) {
+				currValue = ExpressionEvaluator.getInstance().getDatabase()
+						.getValue(data);
 				if ((prevValue > currValue) && (prevValue != Float.MAX_VALUE)) {
 					sum = sum - prevValue + (prevValue - currValue);
 				} else {
@@ -37,13 +51,15 @@ public class ValueCalculator {
 				}
 				prevValue = currValue;
 			} else {
-				creditCarry = creditCarry * Data.getValue(data);
+				creditCarry = creditCarry * ExpressionEvaluator.getInstance()
+						.getDatabase().getValue(data);
 				isCreditApplied = true;
 			}
 		}
 		return sum * creditCarry;
 	}
 
+	@Override
 	public boolean isCreditApplied() {
 		return isCreditApplied;
 	}

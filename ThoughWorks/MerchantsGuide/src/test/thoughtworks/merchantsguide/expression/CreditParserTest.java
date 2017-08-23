@@ -16,8 +16,10 @@ public class CreditParserTest {
 		parser.evaluate("prok is V");
 		parser.evaluate("pish is X");
 		parser.evaluate("tegj is L");
-		assertTrue(parser.evaluate("glob glob Silver is 34 Credits").equals(""));
+		assertTrue(
+				parser.evaluate("glob glob Silver is 34 Credits").equals(""));
 	}
+
 	@Test()
 	public void ValidationSuccesFor_CreditGlobGlobGlobGlobSilver() {
 		// given
@@ -26,9 +28,10 @@ public class CreditParserTest {
 		parser.evaluate("prok is V");
 		parser.evaluate("pish is X");
 		parser.evaluate("tegj is L");
-		assertFalse(parser.evaluate("glob glob glob glob Silver is 34 Credits").equals(""));
+		assertFalse(parser.evaluate("glob glob glob glob Silver is 34 Credits")
+				.equals(""));
 	}
-	
+
 	@Test()
 	public void ValidationSuccesFor_CreditGlobProkGold() {
 		// given
@@ -37,9 +40,10 @@ public class CreditParserTest {
 		parser.evaluate("prok is V");
 		parser.evaluate("pish is X");
 		parser.evaluate("tegj is L");
-		assertTrue(parser.evaluate("glob prok Gold is 57800 Credits").equals(""));
+		assertTrue(
+				parser.evaluate("glob prok Gold is 57800 Credits").equals(""));
 	}
-	
+
 	@Test()
 	public void ValidationSuccesFor_CreditPishPishIron() {
 		// given
@@ -48,6 +52,7 @@ public class CreditParserTest {
 		parser.evaluate("prok is V");
 		parser.evaluate("pish is X");
 		parser.evaluate("tegj is L");
-		assertTrue(parser.evaluate("pish pish Iron is 3910 Credits").equals(""));
-	}	
+		assertTrue(
+				parser.evaluate("pish pish Iron is 3910 Credits").equals(""));
+	}
 }

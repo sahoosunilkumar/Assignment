@@ -1,7 +1,21 @@
 package com.thoughtworks.merchantsguide.rules;
 
-import com.thoughtworks.merchantsguide.database.Data;
+import com.thoughtworks.merchantsguide.expression.ExpressionEvaluator;
+import com.thoughtworks.merchantsguide.rules.romancharrules.CValidator;
+import com.thoughtworks.merchantsguide.rules.romancharrules.DValidator;
+import com.thoughtworks.merchantsguide.rules.romancharrules.IValidator;
+import com.thoughtworks.merchantsguide.rules.romancharrules.LValidator;
+import com.thoughtworks.merchantsguide.rules.romancharrules.MValidator;
+import com.thoughtworks.merchantsguide.rules.romancharrules.VValidator;
+import com.thoughtworks.merchantsguide.rules.romancharrules.XValidator;
 
+/**
+ * initializes all rules validators and sets next validator uses Chain Of
+ * Responsibility pattern
+ * 
+ * @author sunilkumarsahoo
+ *
+ */
 public class RulesValidator {
 	IRulesValidator rulesValidator;
 
@@ -22,21 +36,34 @@ public class RulesValidator {
 		rulesValidator = iValidator;
 	}
 
-	public boolean validate(String inputData){
+	/**
+	 * checks whether the input data is valid
+	 * 
+	 * @param inputData
+	 * @return
+	 */
+	public boolean validate(String inputData) {
 		initValidators();
 		rulesValidator.validate(inputData);
 		return true;
 	}
 
+	/**
+	 * validates expression against its delimeter
+	 * 
+	 * @param expression
+	 * @param delimeter
+	 */
 	public void validate(String expression, String delimeter) {
 		initValidators();
 		String[] dataArr = expression.split(delimeter);
 		StringBuffer sb = new StringBuffer();
 		for (String data : dataArr) {
-			sb.append(Data.getRomanNumber(data));
+			sb.append(ExpressionEvaluator.getInstance().getDatabase()
+					.getRomanNumber(data));
 		}
-		if(sb.length()>0){
-        rulesValidator.validate(sb.toString());
+		if (sb.length() > 0) {
+			rulesValidator.validate(sb.toString());
 		}
 	}
 
