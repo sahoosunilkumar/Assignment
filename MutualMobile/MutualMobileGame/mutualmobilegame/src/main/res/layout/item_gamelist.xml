@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    android:id="@+id/name"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Text.FullWidth"
+    android:layout_margin="@dimen/item_margin"/>
