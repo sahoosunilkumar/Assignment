@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cars/cars.iml" filepath="$PROJECT_DIR$/cars/cars.iml" />
+      <module fileurl="file://$PROJECT_DIR$/inventorycontroller/inventorycontroller.iml" filepath="$PROJECT_DIR$/inventorycontroller/inventorycontroller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/networkmanager/networkmanager.iml" filepath="$PROJECT_DIR$/networkmanager/networkmanager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sixt cars.iml" filepath="$PROJECT_DIR$/sixt cars.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="bottom|center"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/name"
+        style="@style/Text.FullWidth"
+        />
+
+    <TextView
+        android:id="@+id/jackpot"
+        style="@style/Text.FullWidth"/>
+
+    <TextView
+        android:id="@+id/date"
+        style="@style/Text.FullWidth"/>
+
+</LinearLayout>

@@ -1,0 +1,60 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.neenbedankt.android-apt'
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.neenbedankt.gradle.plugins:android-apt:1.4'
+    }
+}
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+
+    defaultConfig {
+        applicationId "com.sixt.cars"
+        minSdkVersion 17
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+
+        buildConfigField "int", "LIMIT", "100"
+        buildConfigField "int", "CACHETIME", "3600" // 1 hour
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:25.2.0'
+    compile 'com.android.support:design:25.2.0'
+    compile 'com.android.support:recyclerview-v7:25.2.0'
+    compile 'com.android.support:cardview-v7:25.2.0'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+
+    compile 'com.google.android.gms:play-services-maps:9.0.2'
+    compile 'com.google.android.gms:play-services-location:9.0.2'
+
+    provided 'org.glassfish:javax.annotation:10.0-b28'
+
+    compile 'com.google.code.gson:gson:2.7'
+    compile project(path: ':inventorycontroller')
+    testCompile 'org.robolectric:robolectric:3.4'
+    testCompile 'org.robolectric:shadows-support-v4:3.4-rc2'
+    testCompile 'org.mockito:mockito-inline:2.7.22'
+
+    apt 'com.google.dagger:dagger-compiler:2.2'
+    compile 'com.google.dagger:dagger:2.2'
+    provided 'javax.annotation:jsr250-api:1.0'
+
+
+}

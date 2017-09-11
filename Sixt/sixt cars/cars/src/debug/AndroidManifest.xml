@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.sixt.cars"
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:name=".SixtCarsApplication"
+        tools:ignore="UnusedAttribute"
+        tools:replace="android:name"/>
+
+</manifest>

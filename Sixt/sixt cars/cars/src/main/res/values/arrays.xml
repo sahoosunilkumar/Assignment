@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="title">
+        <item>Cars List</item>
+        <item>Cars Map</item>
+    </string-array>
+</resources>
