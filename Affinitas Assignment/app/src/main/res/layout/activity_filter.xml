@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:rsb="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+    <LinearLayout
+        android:id="@+id/seekbarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/filter_photo"
+            android:theme="@style/Checkbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/filter_photo" />
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/filter_favourites"
+            android:theme="@style/Checkbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="@string/filter_favourites" />
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/filter_contacts"
+            android:theme="@style/Checkbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="@string/filter_contacts" />
+
+        <TextView
+            style="@style/FilterText"
+            android:text="@string/filter_age" />
+
+        <com.yahoo.mobile.client.android.util.rangeseekbar.RangeSeekBar
+            android:id="@+id/filter_age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            rsb:absoluteMaxValue="@integer/max_age"
+            rsb:absoluteMinValue="@integer/min_age" />
+
+        <TextView
+            style="@style/FilterText"
+            android:text="@string/filter_height" />
+
+        <com.yahoo.mobile.client.android.util.rangeseekbar.RangeSeekBar
+            android:id="@+id/filter_height"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            rsb:absoluteMaxValue="@integer/max_height"
+            rsb:absoluteMinValue="@integer/min_height" />
+
+        <TextView
+            style="@style/FilterText"
+            android:text="@string/filter_compatibility" />
+
+        <com.yahoo.mobile.client.android.util.rangeseekbar.RangeSeekBar
+            android:id="@+id/filter_compatibility"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            rsb:absoluteMaxValue="@integer/max_compatibility"
+            rsb:absoluteMinValue="@integer/min_compatibility" />
+
+        <TextView
+            style="@style/FilterText"
+            android:text="@string/filter_distance" />
+
+        <com.yahoo.mobile.client.android.util.rangeseekbar.RangeSeekBar
+            android:id="@+id/filter_distance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            rsb:absoluteMaxValue="@integer/max_distance"
+            rsb:absoluteMinValue="@integer/min_distance"
+            rsb:singleThumb="true"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:onClick="applyFilter"
+            android:text="@string/apply_filter" />
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

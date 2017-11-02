@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="user"
+            type="com.affinitas.profilematcher.search.model.User" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/icon"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/UserInfo.Header"
+                android:text="@{String.format(@string/name, user.displayName)}" />
+
+            <TextView
+                style="@style/UserInfo.Text"
+                android:text="@{String.format(@string/height, user.heightInCm)}" />
+
+            <TextView
+                style="@style/UserInfo.Text"
+                android:text="@{String.format(@string/age, user.age)}" />
+
+            <TextView
+                style="@style/UserInfo.Text"
+                android:text="@{String.format(@string/compatibility_score, user.compatibilityScore)}" />
+
+            <TextView
+                style="@style/UserInfo.Text"
+                android:text="@{String.format(@string/contact, user.contactsExchanged)}" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</layout>

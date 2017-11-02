@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Profile Matcher</string>
+    <string name="welcome_msg">%d matches found</string>
+    <string name="match_error">Unexpected Error !! Try Again</string>
+    <string name="match_not_found">No Match Found</string>
+    <string name="filter">Filter</string>
+    <string name="apply_filter">Apply Filter</string>
+    <string name="filter_age">Age Range</string>
+    <string name="filter_height">Height Range</string>
+    <string name="filter_distance">Distance Range</string>
+    <string name="filter_compatibility">Compatibility Range</string>
+    <string name="filter_contacts">Contacts Exchanged</string>
+    <string name="filter_favourites">Is Favourites</string>
+    <string name="filter_photo">Has Photo</string>
+
+    <string name="height">Height : %s cm</string>
+    <string name="contact">Contacts Exchanged: %s</string>
+    <string name="name">Name : %s</string>
+    <string name="age">Age : %s</string>
+    <string name="compatibility_score">Compatibility Score : %1s</string>
+    <string name="distance">Distance : %s kms</string>
+    <string name="favourite">Has Favourite : %s</string>
+
+
+    <integer name="min_age">18</integer>
+    <integer name="max_age">95</integer>
+    <integer name="min_distance">30</integer>
+    <integer name="max_distance">300</integer>
+    <integer name="min_compatibility">0</integer>
+    <integer name="max_compatibility">99</integer>
+    <integer name="min_height">135</integer>
+    <integer name="max_height">210</integer>
+</resources>
