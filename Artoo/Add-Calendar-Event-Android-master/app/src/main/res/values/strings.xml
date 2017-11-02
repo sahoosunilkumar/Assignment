@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Artoo Reminder</string>
+    <string name="event_description_hint">Enter Description</string>
+    <string name="event_attendee_hint">Enter Attendee</string>
+    <string name="event_subject_hint">Enter Subject</string>
+    <string name="event_select_date">Select Date</string>
+    <string name="event_select_time">Select Time</string>
+    <string name="event_save">Save</string>
+
+</resources>
