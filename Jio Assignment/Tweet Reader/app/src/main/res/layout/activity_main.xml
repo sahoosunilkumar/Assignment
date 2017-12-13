@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+        <import type="android.view.View"/>
+        <variable
+            name="userViewModel"
+            type="com.jio.assignment.search.viewmodel.UserViewModel" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/userList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/footer"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/footer"
+            >
+
+            <ProgressBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="@{userViewModel.showProgress? View.VISIBLE : View.GONE}"/>
+            <TextView
+                style="@style/ErrorText"
+                android:visibility="@{userViewModel.showError? View.VISIBLE : View.GONE}"
+                android:text="@string/error_message"/>
+
+        </RelativeLayout>
+    </RelativeLayout>
+</layout>
