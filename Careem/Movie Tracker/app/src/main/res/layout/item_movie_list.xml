@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable
+            name="movie"
+            type="com.careem.assignment.search.model.Result"/>
+    </data>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/activity_horizontal_margin"
+    android:layout_marginEnd="@dimen/activity_horizontal_margin"
+    android:clickable="true"
+    android:focusable="true">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="60dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/icon"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/UserInfo.Header"
+            android:text="@{String.format(@string/name, movie.title)}" />
+
+        <TextView
+            style="@style/UserInfo.Text"
+            android:text="@{String.format(@string/overview, movie.overview)}"
+            android:maxLines="2"
+            android:ellipsize="end"/>
+
+        <TextView
+            style="@style/UserInfo.Text"
+            android:text="@{String.format(@string/release_date, movie.releaseDate)}" />
+
+        <TextView
+            style="@style/UserInfo.Text"
+            android:text="@{String.format(@string/original_language, movie.originalLanguage)}" />
+
+    </LinearLayout>
+
+</RelativeLayout>
+</layout>

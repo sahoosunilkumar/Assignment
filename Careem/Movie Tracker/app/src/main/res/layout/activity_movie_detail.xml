@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="movie"
+            type="com.careem.assignment.search.model.Result" />
+    </data>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="@dimen/activity_horizontal_margin">
+
+            <ImageView
+                android:id="@+id/icon"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="@dimen/activity_vertical_margin" />
+
+            <TextView
+                style="@style/UserInfo.Header"
+                android:text="@{String.format(@string/name, movie.title)}" />
+
+            <TextView
+                style="@style/UserInfo.Text"
+                android:text="@{String.format(@string/overview, movie.overview)}" />
+
+            <TextView
+                style="@style/UserInfo.Text"
+                android:text="@{String.format(@string/release_date, movie.releaseDate)}" />
+
+            <TextView
+                style="@style/UserInfo.Text"
+                android:text="@{String.format(@string/original_language, movie.originalLanguage)}" />
+
+            <TextView
+                style="@style/UserInfo.Text"
+                android:text="@{String.format(@string/popularity, movie.popularity)}" />
+
+            <TextView
+                style="@style/UserInfo.Text"
+                android:text="@{String.format(@string/vote_average, movie.voteAverage, movie.voteCount)}" />
+
+            <TextView
+                style="@style/UserInfo.Text"
+                android:text="@{String.format(@string/is_adult, movie.adult)}" />
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</layout>

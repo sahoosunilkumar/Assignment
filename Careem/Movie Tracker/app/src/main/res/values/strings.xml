@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Movie Tracker</string>
+
+    <string name="overview">Overview : %s cm</string>
+    <string name="contact">Contacts Exchanged: %s</string>
+    <string name="name">Name : %s</string>
+    <string name="release_date">Release Date : %s</string>
+    <string name="original_language">Language : %s</string>
+    <string name="vote_average">Vote : %1$s by %2$s audience</string>
+    <string name="is_adult">Adult : %s</string>
+    <string name="popularity">Popularity : %s</string>
+    <string name="image_url">https://image.tmdb.org/t/p/w500/%s</string>
+    <string name="error_message">Unexpected Error ! Try Again</string>
+</resources>
