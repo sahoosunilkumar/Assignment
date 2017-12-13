@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Swiggy Assignment</string>
+
+    <string name="error_message">Unexpected Error ! Try Again</string>
+</resources>
