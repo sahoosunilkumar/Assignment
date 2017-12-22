@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="repository"
+            type="com.xing.repositories.browse.model.Repository" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@{repository.fork? @color/light_green : @color/white}"
+        android:clickable="true"
+        android:focusable="true"
+        android:orientation="vertical"
+        android:paddingBottom="2dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="2dp">
+
+        <TextView
+            android:id="@+id/name"
+            style="@style/UserInfo.Header"
+            android:text="@{String.format(@string/repository_detail_name, repository.name)}" />
+
+        <TextView
+            style="@style/UserInfo.Text"
+            android:text="@{String.format(@string/repository_detail_description, repository.description)}" />
+
+        <TextView
+            style="@style/UserInfo.Text"
+            android:text="@{String.format(@string/repository_detail_owner, repository.owner.id)}" />
+
+    </LinearLayout>
+</layout>

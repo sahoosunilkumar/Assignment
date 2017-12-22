@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Xing Repositories</string>
+    <string name="error_message">Unexpected Error ! Try Again</string>
+    <string name="repository_detail_owner">Owner : %1s</string>
+    <string name="repository_detail_description">Description : %1s</string>
+    <string name="repository_detail_name">Name : %1s</string>
+    <string name="repository_select_title">Select Url To View</string>
+    <string name="owner_url">Owner Url</string>
+    <string name="repository">Repository Url</string>
+
+
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+</resources>
